@@ -37,13 +37,13 @@ void loop() {
     return;
   }
 
-  Serial.print(F("Humedad: "));
-  Serial.print(h);
-  Serial.print("% \n");
+  #Serial.print(F("Humedad: "));
+  #Serial.print(h);
+  #Serial.print("% \n");
   lcd.setCursor(0,1);
   lcd.print("Hmd: ");
   lcd.print(h);
-  Serial.print(F("Temperatura: "));
+  #Serial.print(F("Temperatura: "));
   Serial.print(t);
   Serial.print(F("°C "));
   Serial.print("\n");
